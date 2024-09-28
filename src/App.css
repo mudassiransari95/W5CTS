@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.color {
+  color: #3B3663;
+}
+.gredient {
+  background-image: linear-gradient(to right,blue,red);
+}
+
+.hightone {
+  width: 48rem;
+  height: 48rem;
+  
+}
+
+.text {
+  /* -webkit-text-fill-color: #ff7426; */
+  color: #6EC1E4;
+  
+}
+/* Triangle container */
+
+
+
+
+
+
+.circle {
+  width: 37rem;
+  height: 37rem;
+}
+.hover:hover{
+  background-color: #ff7426;
+}
+.listdisc::marker{
+  color: rgb(56, 56, 180);
+  font-size: medium;
+  
+
+}
+.fontfamily {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* 
+  @keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  } */
